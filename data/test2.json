@@ -1,0 +1,36 @@
+[ {
+  "pubID" : 3,
+  "name" : "AMERICAN PUBLISHING",
+  "contact" : "DAVID DAVIDSON",
+  "phone" : "800-555-1211",
+  "companyPhotoPath" : "data/amp-logo.png",
+  "contactPhotoPath" : "data/david-d.jpg"
+}, {
+  "pubID" : 1,
+  "name" : "PRINTING IS US",
+  "contact" : "TOMMIE SEYMOUR",
+  "phone" : "000-714-8321",
+  "companyPhotoPath" : "data/piu-logo.png",
+  "contactPhotoPath" : "data/tommie-s.jpg"
+}, {
+  "pubID" : 2,
+  "name" : "PUBLISH OUR WAY",
+  "contact" : "JANE TOMLIN",
+  "phone" : "010-410-0010",
+  "companyPhotoPath" : "data/pow-logo.png",
+  "contactPhotoPath" : "data/jane-t.jpg"
+}, {
+  "pubID" : 4,
+  "name" : "READING MATERIALS INC.",
+  "contact" : "RENEE SMITH",
+  "phone" : "800-555-9743",
+  "companyPhotoPath" : "data/rmi-logo.png",
+  "contactPhotoPath" : "data/renee-s.jpg"
+}, {
+  "pubID" : 5,
+  "name" : "REED-N-RITE",
+  "contact" : "SEBASTIAN JONES",
+  "phone" : "800-555-8284",
+  "companyPhotoPath" : "data/rnr-logo.png",
+  "contactPhotoPath" : "data/sebastian-j.jpg"
+} ]

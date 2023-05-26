@@ -1,0 +1,49 @@
+<html>
+    <!--Adrian Faircloth
+        12-6-22
+        CSC480 Test 2
+        Publisher data table using JSON -->
+    <style>
+                table, th, td {
+  border: 1px solid black;
+}
+    </style>
+    <head>
+        <img src="../data/books.png" alt="BookReorder header image">
+    </head>
+    <body>
+
+            <table id = "Table">
+                <tr>
+                    <th>Name</th>
+                    <th>PubID</th>
+                    <th>Contact</th>
+                    <th>Phone</th>
+                </tr>
+            </table>
+
+    <script>
+
+        fetch('../data/test2.json')
+        .then(function(response) {
+            return response.json();
+            })
+            .then(function(data) {
+                loadData(data);
+            })
+
+        function loadData(data) {
+            let tableText = document.getElementById("Table").innerHTML;
+            for (let i = 0; i < data.length; i++) {
+                tableText += "<tr>"
+                tableText += "<td>" + data[i].name + "</td>";
+                tableText += "<td>" + data[i].pubID + "</td>";
+                tableText += "<td>" + data[i].contact + "</td>";
+                tableText += "<td>" + data[i].phone + "</td>";
+                tableText += "</tr>"
+            }
+            document.getElementById("Table").innerHTML = tableText;
+        }
+    </script>
+    </body>
+</html>
